@@ -1,5 +1,6 @@
 seajs.config({
 	// 别名配置
+    //TODO 添加bootstrap
 	alias: {
 		'seajs-text' : 'assets/scripts/seajs/seajs-text/1.1.1/seajs-text',
 		'jquery'     : 'assets/scripts/jquery/1.9.1/jquery',
