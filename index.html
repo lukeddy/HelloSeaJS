@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="zh">
 <head>
 <meta charset="UTF-8"/>
 <title>seejs测试实例</title>
@@ -21,8 +22,14 @@
 </head>
 <body>
   <div id="hello-seajs">aaaaa</div>
+  <div style="text-align: center;">
+      <button id="btnClick">Click Me</button>
+  </div>
 </body>
 </html>
 <script type="text/javascript" src="assets/scripts/seajs/seajs/3.0.0/sea.js"></script>
 <script type="text/javascript" src="assets/scripts/sea_config.js"></script>
-<script> seajs.use("application"); </script>
+<script>
+    seajs.use("application");
+    seajs.use("index");
+</script>

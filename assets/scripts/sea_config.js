@@ -5,7 +5,8 @@ seajs.config({
 		'jquery'     : 'assets/scripts/jquery/1.9.1/jquery',
 		
 		'util'     : 'assets/scripts/application/util',
-		'application' :'assets/scripts/application/application'
+		'application' :'assets/scripts/application/application',
+        'index': 'assets/scripts/application/index'
 	},
 	map: [
 
@@ -36,7 +37,7 @@ seajs.config({
 	debug: true,
 
 	// Sea.js 的基础路径
-	base: 'http://localhost/HelloSeaJS/',
+	base: 'http://localhost:63342/HelloSeaJS/',
 
 	// 文件编码
 	charset: 'utf-8'
