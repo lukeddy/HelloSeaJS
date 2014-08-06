@@ -4,6 +4,7 @@
 <meta charset="UTF-8"/>
 <title>seejs测试实例</title>
 <link href="assets/styles/normalize.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/scripts/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
 <style>
   #hello-seajs{
       width:200px;
@@ -23,13 +24,14 @@
 <body>
   <div id="hello-seajs">aaaaa</div>
   <div style="text-align: center;">
-      <button id="btnClick">Click Me</button>
+      <button id="btnClick" class="btn btn-success">Click Me</button>
   </div>
 </body>
 </html>
 <script type="text/javascript" src="assets/scripts/seajs/seajs/3.0.0/sea.js"></script>
 <script type="text/javascript" src="assets/scripts/sea_config.js"></script>
 <script>
+    seajs.use("bootstrap");
     seajs.use("application");
     seajs.use("index");
 </script>

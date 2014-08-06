@@ -4,6 +4,7 @@ seajs.config({
 	alias: {
 		'seajs-text' : 'assets/scripts/seajs/seajs-text/1.1.1/seajs-text',
 		'jquery'     : 'assets/scripts/jquery/1.9.1/jquery',
+         'bootstrap':'assets/scripts/bootstrap/3.2.0/js/bootstrap',
 		
 		'util'     : 'assets/scripts/application/util',
 		'application' :'assets/scripts/application/application',
@@ -31,7 +32,7 @@ seajs.config({
 
 	// 预加载项
 
-	preload: ['jquery', 'seajs-text'],
+	preload: ['jquery','bootstrap', 'seajs-text'],
 	//preload: ['jquery', 'seajs-text', 'seajs-combo'],
 
 	// 调试模式
